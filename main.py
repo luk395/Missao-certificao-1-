@@ -12,27 +12,27 @@ class MainApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Login")
-        self.root.geometry("450x320")
+        self.root.geometry("600x320")
         self.root.resizable(False, False)
 
         # login e senha de usuários
         self.user_credentials = {
-            "admin": "admin123",
-            "host": "host123"
+            "Admin": "Admin123",
+            "Host": "Host123"
         }
 
         # Imagem de login
-        self.img = tk.PhotoImage(file="Login.png")
+        self.img = tk.PhotoImage(file="estacio.png")
         self.lb_img = ttk.Label(root, image=self.img)
-        self.lb_img.grid(row=3, column=0, padx=10)
+        self.lb_img.grid(row=4, column=0, padx=0)
 
         # Título
         self.title = ttk.Label(root, text='ESTACIO \nMISSAO CERTIFICAÇÃO 1 \nDEV Full Stack 2023.3 \nGrupo 4', font=("calibri", 12), justify="center")
-        self.title.grid(row=0, column=0, pady=20, padx=10)
+        self.title.grid(row=1, column=0, pady=20, padx=10)
 
         # Frame de login
         self.frame_login = ttk.Frame(root, width=100, height=400)
-        self.frame_login.place(x=200, y=20)
+        self.frame_login.place(x=350, y=20)
 
         # Título de login
         self.lb_title = ttk.Label(self.frame_login, text='Faça o seu Login', font=("calibri", 14))
@@ -59,7 +59,7 @@ class MainApp:
     def abrir_desenvolvedores(self):
         janela_desenvolvedores = tk.Toplevel(self.root)
         janela_desenvolvedores.title("Desenvolvedores")
-        janela_desenvolvedores.geometry("600x200")
+        janela_desenvolvedores.geometry("400x200")
         janela_desenvolvedores.resizable(False, False)
 
         conteudo_desenvolvedores = Desenvolvedores(janela_desenvolvedores)
@@ -73,9 +73,9 @@ class MainApp:
         if usuario in self.user_credentials and self.user_credentials[usuario] == senha:
             perfil = usuario
 
-            if perfil == "admin":
+            if perfil == "Admin":
                 self.abrir_home_admin()
-            elif perfil == "host":
+            elif perfil == "Host":
                 self.abrir_home_host()
         else:
             messagebox.showerror("Erro de Login", "Credenciais inválidas. Tente novamente.")
