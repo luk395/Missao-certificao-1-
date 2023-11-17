@@ -2,7 +2,7 @@
 
 Desenvolvedores:
 -
-Luca MIgliaccio(202307065765)
+
 
 # Objetivo:
 
