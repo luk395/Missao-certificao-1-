@@ -6,18 +6,4 @@ Desenvolver uma aplicação para gerenciamento da Matriz SoD (que em inglês que
 
 📝 O Projeto contem: 
 
-1 - Cadastro dos Sistemas;
-
-2 - Cadastro dos Perfis;
-
-3 - Cadastro da Matriz SoD;
-
-4 - Cadastro dos perfis dos usuários com a crítica de conflito de interesse;
-
-5 - Consulta dos Sistemas;
-
-6 - Consulta dos Perfis;
-
-7 - Consulta da Matriz SoD;
-
-8 - Consulta dos perfis associados aos usuários;
+Cadastro dos Sistemas; Cadastro dos Perfis; Cadastro da Matriz SoD; Cadastro dos perfis dos usuários com a crítica de conflito de interesse; Consulta dos Sistemas; Consulta dos Perfis; Consulta da Matriz SoD; Consulta dos perfis associados aos usuários;
