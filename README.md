@@ -8,24 +8,17 @@ Luca MIgliaccio(202307065765)
 
 Desenvolver uma aplicação para gerenciamento da Matriz SoD (que em inglês quer dizer “Segregation of Duties”), que tem como objetivo indicar os perfis de acesso conflitantes e que possam representar risco de fraude.
 
-📝 O Projeto deve conter: 
+📝 O Projeto deve conter o cadastro e consultar: 
 -
 
-1 - Cadastro dos Sistemas;
+1 - Os Sistemas;
 
-2 - Cadastro dos Perfis; 
+2 - Os Perfis; 
 
-3 - Cadastro da Matriz SoD; 
+3 - A Matriz SoD; 
 
-4 - Cadastro dos perfis dos usuários;
+4 - Os Usuários;
 
-5 - Consulta dos Sistemas; 
-
-6- Consulta dos Perfis;
-
-7- Consulta da Matriz SoD;
-
-8 - Consulta dos perfis associados aos usuários;
 
 # Descrição :
 
@@ -42,7 +35,7 @@ Credenciais de exemplo: "Admin" com senha "Admin123" e "Host" com senha "Host123
 Página Inicial:
 -
 
-Exibe informações sobre a missão de certificação.
+Exibe uma mensagem de bem vindos.
 
 
 Perfis e Abas Diferenciadas:
