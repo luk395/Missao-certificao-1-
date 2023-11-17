@@ -8,7 +8,7 @@ Desenvolvedores:
 
 Desenvolver uma aplicação para gerenciamento da Matriz SoD (que em inglês quer dizer “Segregation of Duties”), que tem como objetivo indicar os perfis de acesso conflitantes e que possam representar risco de fraude.
 
-📝 O Projeto deve conter o cadastro e consultar: 
+O Projeto deve conter o cadastro e consultar: 
 -
 
 1 - Os Sistemas;
