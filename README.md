@@ -50,10 +50,15 @@ Abas e Funcionalidades:
 -
 
 Home: Página inicial com informações gerais.
+
 Sistemas: Gerenciamento de sistemas.
+
 Perfis: Gerenciamento de perfis associados a diferentes sistemas.
+
 Matriz SoD: Gerenciamento dos conflitos.
+
 Usuários: Gerenciamento de informações de usuários, incluindo CPF, sistema associado e perfil correspondente.
+
 Desenvolvedores: Inclui um botão que, quando clicado, abre uma janela dedicada aos desenvolvedores envolvidos no projeto.
 
 
