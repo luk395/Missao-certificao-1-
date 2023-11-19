@@ -2,6 +2,9 @@
 
 Desenvolvedores:
 -
+- LUCA MIGLIACCIO, 202307065765;
+  
+- RAFAEL SANTOS CARNEIRO, 202307152374;
 
 
 # Objetivo:
