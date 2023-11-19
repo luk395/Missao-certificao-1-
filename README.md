@@ -73,7 +73,7 @@ tkinter: Uma biblioteca padrão do Python para construção de interfaces gráfi
 
 messagebox: Para visualizar as mensegns.
 
-watchdog: Utilizado para monitorar alterações em arquivos, permitindo a atualização dinâmica da aplicação.
+watchdog: Utilizado para monitorar alterações em arquivos, permitindo a atualização em tempo real da aplicação.
 
 # Instruções para Execução:
 
