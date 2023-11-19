@@ -13,8 +13,6 @@ class Desenvolvedores(ttk.Frame):
             ("Nome", "Matrícula"),
             ("LUCA MIGLIACCIO", "202307065765"),
             ("RAFAEL SANTOS CARNEIRO", "202307152374"),
-            ("SHEYKYEL SAAHD DOMINGUES MORAES RAMALHO", "202309519976"),
-            ("YAN HENRIQUE SOUZA DOS SANTOS", "202308464515"),
         ]
 
         totalRows = len(dados_desenvolvedores)
